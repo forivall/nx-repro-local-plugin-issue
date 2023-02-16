@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "name": "repro",
+  "version": "0.0.1",
+  "generators": {
+    "repro": {
+      "factory": "./src/generators/repro/generator",
+      "schema": "./src/generators/repro/schema.json",
+      "description": "repro generator"
+    }
+  }
+}

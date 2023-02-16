@@ -1,0 +1,10 @@
+{
+  "name": "@repro-local-plugin-issue/repro",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "generators": "./generators.json",
+  "executors": "./executors.json",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

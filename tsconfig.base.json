@@ -1,20 +1,20 @@
 {
+  "extends": "@tsconfig/node16/tsconfig.json",
+  "typeAcquisition": {
+    "enable": true,
+    "include": ["jest", "express", "lodash"]
+  },
+  "ts-node": {
+    "transpileOnly": true,
+    "transpiler": "sucrase/ts-node-plugin"
+  },
   "compileOnSave": false,
   "compilerOptions": {
-    "rootDir": ".",
-    "sourceMap": true,
-    "declaration": false,
-    "moduleResolution": "node",
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "importHelpers": true,
-    "target": "es2015",
-    "module": "esnext",
-    "lib": ["es2017", "dom"],
-    "skipLibCheck": true,
-    "skipDefaultLibCheck": true,
-    "baseUrl": ".",
-    "paths": {}
+    "moduleResolution": "nodenext",
+    "paths": {
+      "@repro-local-plugin-issue/demo": ["packages/demo/src/index.ts"],
+      "@repro-local-plugin-issue/repro": ["packages/repro/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
