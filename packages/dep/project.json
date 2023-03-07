@@ -1,0 +1,9 @@
+{
+  "name": "dep",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "targets": {
+    "build": {
+      "command": "cp -r packages/dep dist/packages/dep"
+    }
+  }
+}

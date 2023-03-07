@@ -10,6 +10,7 @@
   },
   "compileOnSave": false,
   "compilerOptions": {
+    "baseUrl": "packages",
     "moduleResolution": "nodenext",
     "paths": {
       "@repro-local-plugin-issue/demo": ["packages/demo/src/index.ts"],

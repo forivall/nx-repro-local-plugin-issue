@@ -1,0 +1,9 @@
+{
+  "name": "@repro-local-plugin-issue/dep",
+  "version": "0.0.0",
+  "main": "index",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "node index.js"
+  }
+}

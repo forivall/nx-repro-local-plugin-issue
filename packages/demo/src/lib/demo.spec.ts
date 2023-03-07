@@ -1,7 +1,7 @@
-import { demo } from './demo';
+import { dynamicDep } from './demo';
 
-describe('demo', () => {
+describe('dynamicDep', () => {
   it('should work', () => {
-    expect(demo()).toEqual('demo');
+    expect(dynamicDep()).toEqual('dynamic');
   });
 });

@@ -5,7 +5,12 @@
   "projectType": "library",
   "targets": {
     "build": {
-      "executor": "@repro-local-plugin-issue/repro:build"
+      "executor": "@nrwl/js:tsc",
+      "options": {
+        "main": "lib/index.ts",
+        "outputPath": "dist/packages/demo",
+        "tsConfig": "packages/demo/tsconfig.lib.json"
+      }
     },
     "lint": {
       "executor": "@nrwl/linter:eslint",
