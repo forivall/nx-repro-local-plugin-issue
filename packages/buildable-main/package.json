@@ -1,0 +1,8 @@
+{
+  "name": "@repro-local-plugin-issue/buildable-main",
+  "version": "0.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "node index.js"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "buildable-main",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/js:tsc",
+      "options": {
+        "main": "main.ts",
+        "outputPath": "dist/packages/nonexistent-main",
+        "tsConfig": "packages/nonexistent-main/tsconfig.lib.json"
+      }
+    }
+  }
+}
